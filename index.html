@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Landing Page</title>
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <div class="logo">
+        <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="user" />
+      </div>
+      
+      <ul>
+        <li><a href="quiz_app/index.html">Test your Technical skills</a></li>
+        <li><a href="to_do_list/index.html">Set your to-do list</a></li>
+        <li><a href="notes_app/index.html">Make your notes</a></li>
+        <li><a href="sawo_lab/index.html">No OTP Authentication</a></li>
+        <li><a href="contact_form/index.html">Contact Form</a></li>
+      
+          <li><a href="sawo_lab/index.html">Use Sawo Authentication</a></li>
+        
+
+      </ul>
+    </nav>
+
+    <header>
+      <button id="toggle" class="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+
+      <h1>Web Development : Continous Evolution</h1>
+
+      <p>
+        Build | Learn | Grow 
+      </p>
+
+      <button class="cta-btn" id="open">Sign Up</button>
+      <button class="cta-btn" id="open">Login</button>
+    </header>
+
+    <div class="container">
+        <p>If you’re a budding engineer in the trade of IT or someone else with a fresh interest in website development and design, then this post is for you.
+
+            For over a decade, web development has been the most favourite subject for geeks all over the world and it’s not new. But the everyday growth and emerging techniques has made it even a more wondrous subject to learn and experiment on.</p>
+      <h2>What is Web development</h2>
+      <p>
+        Web development refers to the building, creating, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.</p>
+        
+       <p> The word Web Development is made up of two words, that is:</p>
+<ul>
+    <li>Web: It refers to websites, web pages or anything that works over the internet </li>
+    <li> Development: Building the application from scratch.</li>
+    </ul>
+     
+    
+      <p>
+        Web Development can be classified into two ways:</p>
+        <ul>
+       <li> Frontend Development </li>
+        <li> Backend Development </li>
+        </ul>
+
+      <h2>Frontend</h2>
+
+      <p>  The part of a website that the user interacts directly is termed as front end. It is also referred to as the ‘client side’ of the application</p>
+      <p>HTML: HTML stands for HyperText Markup Language. It is used to design the front end portion of web pages using markup language. It acts as a skeleton for a website since it is used to make the structure of a website.</p>
+      <p>CSS: Cascading Style Sheets fondly referred to as CSS is a simply designed language intended to simplify the process of making web pages presentable. It is used to style our website.</p>
+      <p>JavaScript: JavaScript is a scripting language used to provide a dynamic behavior to our website.</p>
+      <p>Bootstrap: Bootstrap is a free and open-source tool collection for creating responsive websites and web applications. It is the most popular CSS framework for developing responsive, mobile-first websites. Nowadays, the websites are perfect for all the browsers (IE, Firefox, and Chrome) and for all sizes of screens (Desktop, Tablets, Phablets, and Phones).</p>
+      <p>Frontend Frameworks and Libraries:</p>
+      <ul>
+          <li>AngularJS</li>
+          <li>React.js</li>
+          <li>VueJS</li>
+          <li>jQuery</li>
+          <li>Bootstrap</li>
+          <li>Material UI</li>
+          <li>Tailwind CSS</li>
+          <li>jQuery UI</li>
+          <li>Some other libraries and frameworks are: Handlebar.js Backbone.js, Ember.js etc.</li>
+      </ul>
+
+      <h2>Backend</h2>
+      <p>Backend is the server side of a website. It is the part of the website that users cannot see and interact. It is the portion of software that does not come in direct contact with the users. It is used to store and arrange data</p>
+      <p>PHP: PHP is a server-side scripting language designed specifically for web development.</p>
+      <p>Java: Java is one of the most popular and widely used programming language. It is highly scalable.</p>
+      <p>Python: Python is a programming language that lets you work quickly and integrate systems more efficiently.</p>
+      <p>Node.js: Node.js is an open source and cross-platform runtime environment for executing JavaScript code outside a browser.</p>
+      <p>Back End Frameworks: The list of back end frameworks are: Express, Django, Rails, Laravel, Spring, etc.</p>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Sign Up</h3>
+        </div>
+        <div class="modal-content">
+          <p>Register with us to get offers, support and more</p>
+          <form class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter Name"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter Email"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="password2">Confirm Password</label>
+              <input
+                type="password"
+                id="password2"
+                placeholder="Confirm Password"
+                class="form-input"
+              />
+            </div>
+            <input type="submit" value="Submit" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
